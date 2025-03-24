@@ -1,0 +1,104 @@
+*{
+    font-family: inter, sans-serif;
+}
+
+img {
+    border-radius: 50%;
+    width: 90px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.name, .description {
+    color: hsl(0, 0%, 100%)
+}
+
+.name {
+    margin-bottom: -6px;
+}
+
+.location {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+.name, .description, .location {
+    text-align: center;
+}
+
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+    
+}
+
+.profile {
+    background-color: hsl(0, 0%, 12%);
+    width: 350px;
+    border-radius: 15px;
+    padding-top: 40px;
+    height: 550px;
+    margin-bottom: -2px ;
+
+
+
+}
+
+.list {
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    list-style: none;
+
+}
+
+
+li {
+    height: 40px;
+    margin: 16px auto;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    font-size: 14px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 38px;
+    
+}
+
+
+.location {
+    font-size: 14px;
+}
+
+.description {
+    font-size: 14px;
+    margin-top: 35px;
+    opacity: .7;
+    margin-bottom: 30px;
+    
+}
+
+a:link {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+li:hover {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+.focus {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);          
+}
+
+a:visited {
+    color: hsl(0, 0%, 100%);
+}
