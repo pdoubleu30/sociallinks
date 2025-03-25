@@ -43,20 +43,43 @@ body {
     width: 350px;
     border-radius: 15px;
     padding-top: 40px;
-    height: 550px;
-    margin-bottom: -2px ;
+    height: 580px;
+    margin-bottom: 80px ;
+    margin-top: 200px 
 
+}
 
-
+.bottom {
+    margin-bottom: 400px;
 }
 
 .list {
-    color: hsl(0, 0%, 100%);
-    font-weight: 600;
+    font-weight: 800;
     list-style: none;
+    display: grid;
+    row-gap: 16px;
+    margin: 30px ;
+
+    
 
 }
 
+button {
+    padding: 15px 10px 15px 10px;
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 8px;
+    cursor: pointer;
+    color:hsl(0, 0%, 100%);
+    border: none;
+}
+
+button:hover {
+    background-color: hsl(75, 94%, 57%);
+}
+
+a {
+    color: hsl(0, 0%, 100%);
+}
 
 li {
     height: 40px;
@@ -86,19 +109,10 @@ li {
 
 a:link {
     text-decoration: none;
-    color: hsl(0, 0%, 100%);
+    
 }
 
 li:hover {
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 8%);
-}
-
-.focus {
-    background-color: hsl(75, 94%, 57%);
-    color: hsl(0, 0%, 8%);          
-}
-
-a:visited {
-    color: hsl(0, 0%, 100%);
 }
